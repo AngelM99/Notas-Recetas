@@ -105,6 +105,11 @@ body {
     align-items: center;
 }
 
+@media (max-width: 321px) {
+    body {
+        height: 130vh;
+    }
+}
 
 .contenido__general-principal {
     background-color: var(--blanco);
@@ -140,6 +145,18 @@ body {
     .general-principal-logo {
         width: 50%;
         margin: 0;
+    }
+}
+
+@media (max-width: 468px) {
+    .general-principal-logo {
+        width: 20%;
+    }
+}
+
+@media (max-width: 321px) {
+    .general-principal-logo {
+        width: 30%;
     }
 }
 
@@ -214,6 +231,7 @@ body {
 @media (max-width: 468px) {
     .title-formulario {
         font-size: 3rem;
+        margin: 0;
     }
 }
 
